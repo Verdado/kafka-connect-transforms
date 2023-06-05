@@ -4,11 +4,12 @@
 Open-source kafka connect transformations
 ```
 
-#Transformation lists:
-##KeyToValue
+# Transformation lists:
+
+## KeyToValue
 - Writes Key schema to value schema as part of sink connector
 
-####Usage:
+#### Usage:
  ```
   (Single Key)
     transforms=KeyToValue
@@ -20,10 +21,10 @@ Open-source kafka connect transformations
     transforms.KeyToValue.field.name=columnName1,columnName2
  ```
 
-##StructToSchemaless
+## StructToSchemaless
 - Converting value schema to json without schema.
 
-####Usage:
+#### Usage:
 ```
 "transforms": "structToSchemaless",
 "transforms.structToSchemaless.type": "com.rakuten.dps.kafka.connect.transforms.StructToSchemaless",
