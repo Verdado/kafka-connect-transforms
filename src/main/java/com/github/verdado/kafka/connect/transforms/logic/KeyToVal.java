@@ -1,4 +1,4 @@
-package com.rakuten.dps.kafka.connect.transforms.logic;
+package com.github.verdado.kafka.connect.transforms.logic;
 
 import org.apache.kafka.connect.connector.ConnectRecord;
 import org.apache.kafka.connect.data.Field;

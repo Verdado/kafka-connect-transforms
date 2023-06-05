@@ -16,9 +16,9 @@
  *
  */
 
-package com.rakuten.dps.kafka.connect.transforms;
+package com.github.verdado.kafka.connect.transforms;
 
-import com.rakuten.dps.kafka.connect.transforms.logic.KeyToVal;
+import com.github.verdado.kafka.connect.transforms.logic.KeyToVal;
 import org.apache.kafka.common.cache.Cache;
 import org.apache.kafka.common.cache.LRUCache;
 import org.apache.kafka.common.cache.SynchronizedCache;

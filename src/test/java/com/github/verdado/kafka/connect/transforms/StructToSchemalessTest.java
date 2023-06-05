@@ -1,4 +1,4 @@
-package com.rakuten.dps.kafka.connect.transforms;
+package com.github.verdado.kafka.connect.transforms;
 
 import org.apache.kafka.connect.connector.ConnectRecord;
 import org.apache.kafka.connect.data.Field;

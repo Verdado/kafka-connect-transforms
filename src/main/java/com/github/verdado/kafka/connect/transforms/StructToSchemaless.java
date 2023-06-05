@@ -1,4 +1,4 @@
-package com.rakuten.dps.kafka.connect.transforms;
+package com.github.verdado.kafka.connect.transforms;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

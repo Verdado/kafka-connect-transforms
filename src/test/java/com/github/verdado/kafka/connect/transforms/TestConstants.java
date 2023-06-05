@@ -1,4 +1,4 @@
-package com.rakuten.dps.kafka.connect.transforms;
+package com.github.verdado.kafka.connect.transforms;
 
 public class TestConstants {
     public static final String SAMPLE_TOPIC = "just_another_topic";
